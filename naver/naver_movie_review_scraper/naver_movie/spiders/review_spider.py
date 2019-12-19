@@ -1,14 +1,16 @@
 import scrapy
 from scrapy.http import Request
+import math
+
 
 
 class ReviewSpider(scrapy.Spider):
     name = "movie_spider"
-    max_page = 2000
+    total_reviews = 19945
     movie_code = 136873 #겨울왕국2
 
     def start_requests(self):
-        for i in range(1, self.max_page):
+        for i in range(1, math.ceil(self.total_reviews/10)):
             yield Request('https://movie.naver.com/movie/bi/mi/pointWriteFormList.nhn?code={0}&type=after&isActualPointWriteExecute=false&isMileageSubscriptionAlready=false&isMileageSubscriptionReject=false&page={1}'.format(self.movie_code, i))
 
     def parse(self, response):
