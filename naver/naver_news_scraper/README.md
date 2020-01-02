@@ -4,7 +4,7 @@ Naver News Scraper is a web crawler that scrapes user comments from Naver news a
 
 Naver News Scraper is useful to those trying to scrape user comments from Naver news articles. It uses python `scrapy` framework.
 
-[Naver](www.naver.com) is a Korean web portal.
+**[Naver](www.naver.com) is a Korean web portal.*
 
 ## Requirements
 
@@ -28,14 +28,28 @@ Naver News Scraper is useful to those trying to scrape user comments from Naver 
 1. Fork the repository.
 
 2. Clone your forked repository to your machine.</br>
-  <code> git clone https://github.com/hkimkim/data_crawling.git</code>
+``` git clone https://github.com/hkimkim/data_crawling.git ```
 
 
 3. Navigate into `/spiders` directory</br>
 `cd /<your machine directory>/data_crawling/naver/naver_news_scraper/naver_news/spiders`.
 
 4. Open `naver_news_scraper.py` and copy and paste the link of the naver news article you want to crawl into the `url` variable on line 13.
+![Imgur](https://i.imgur.com/llM8NvZ.png?1)
+
 
 5. Run <code> scrapy runspider naver_news_scraper.py </code> </br>
 ![Alt Text](https://media.giphy.com/media/U3VVbR1DMej8GZXJl8/giphy.gif)
+
 6. To save the crawled outcome to a .csv file, run the code:</br> `scrapy runspider naver_news_scraper.py -o <name_of_file>.csv`
+
+### Scraped Data Features:
+-   userName: user ID of commenter
+-   date: date the comment was made
+-   title: title of the news article
+-   press: name of press of the news article
+-   content: comment by the user
+-   likes: number of likes the comment received
+-   dislikes: number of dislikes the comment received
+
+***
