@@ -1,6 +1,6 @@
 # Naver News Scraper
 
->Naver News Scraper is a web crawler that scrapes user comments from Naver news articles.
+Naver News Scraper is a web crawler that scrapes user comments from Naver news articles.
 
 Naver News Scraper is useful to those trying to scrape user comments from Naver news articles. It uses python `scrapy` framework.
 
