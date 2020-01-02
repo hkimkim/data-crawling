@@ -43,7 +43,7 @@ Naver News Scraper is useful to those trying to scrape user comments from Naver 
 
 6. To save the crawled outcome to a .csv file, run the code:</br> `scrapy runspider naver_news_scraper.py -o <name_of_file>.csv`
 
-### Scraped Data Features:
+## Scraped Data Features:
 -   userName: user ID of commenter
 -   date: date the comment was made
 -   title: title of the news article
