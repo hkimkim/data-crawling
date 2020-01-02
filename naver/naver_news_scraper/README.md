@@ -1,8 +1,10 @@
 # Naver News Scraper
 
-Naver News Scraper is a web crawler that scrapes user comments from Naver news articles. [Naver](www.naver.com) is a Korean web portal.
+>Naver News Scraper is a web crawler that scrapes user comments from Naver news articles.
 
 Naver News Scraper is useful to those trying to scrape user comments from Naver news articles. It uses python `scrapy` framework.
+
+[Naver](www.naver.com) is a Korean web portal.
 
 ## Requirements
 
@@ -33,7 +35,7 @@ Naver News Scraper is useful to those trying to scrape user comments from Naver 
 `cd /<your machine directory>/data_crawling/naver/naver_news_scraper/naver_news/spiders`.
 
 4. Open `naver_news_scraper.py` and copy and paste the link of the naver news article you want to crawl into the `url` variable on line 13.
-![Alt Text](https://media.giphy.com/media/WQfTDvWCl0CdujBILF/giphy.gif)
+
 5. Run <code> scrapy runspider naver_news_scraper.py </code> </br>
 ![Alt Text](https://media.giphy.com/media/U3VVbR1DMej8GZXJl8/giphy.gif)
 6. To save the crawled outcome to a .csv file, run the code:</br> `scrapy runspider naver_news_scraper.py -o <name_of_file>.csv`
