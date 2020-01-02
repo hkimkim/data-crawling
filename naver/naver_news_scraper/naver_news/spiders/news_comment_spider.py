@@ -10,7 +10,8 @@ import re
 class NewsCommentSpider(scrapy.Spider):
     name = "news_comment_spider"
     #input news article you want to crawl
-    url = "https://news.naver.com/main/ranking/read.nhn?mid=etc&sid1=111&rankingType=popular_day&oid=437&aid=0000227434&date=20191226&type=2"
+    url ="https://news.naver.com/main/ranking/read.nhn?mid=etc&sid1=111&rankingType=popular_day&oid=001&aid=0011309979&date=20200102&type=1&rankingSeq=1&rankingSectionId=103"
+    #"https://news.naver.com/main/ranking/read.nhn?mid=etc&sid1=111&rankingType=popular_day&oid=437&aid=0000227434&date=20191226&type=2"
 
     oid = re.findall(r'(?<=&oid=)[0-9]+', url)[0]
     aid = re.findall(r'(?<=&aid=)[0-9]+',url)[0]
