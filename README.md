@@ -19,7 +19,6 @@ It uses python `BeutifulSoup` and `scrapy` framework.
 ## Directory
 * [data_crawling](https://github.com/hkimkim/data_crawling):  root directory
     * [daum](https://github.com/hkimkim/data_crawling/tree/master/daum/)/ contains code for crawling user comments on daum news article </br>
-        * [daum_news_scraper]()
     * [naver](https://github.com/hkimkim/data_crawling/tree/master/naver)/ contains code for crawling naver news and naver movie review
         * [naver_movie_review_scraper](https://github.com/hkimkim/data_crawling/tree/master/naver/naver_movie_review_scraper)/ contains code for naver movie review
         * [naver_news_scraper](https://github.com/hkimkim/data_crawling/tree/master/naver/naver_news_scraper)/ contains code for crawling naver news
