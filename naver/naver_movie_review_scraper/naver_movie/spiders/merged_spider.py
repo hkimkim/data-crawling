@@ -63,7 +63,7 @@ class MergedSpider(scrapy.Spider):
             #save the scraped items into dataframe called NaverMovieItem
             item = ItemLoader(item=NaverMovieItem())
             item.add_value('title', title)
-            item.add_value('user', all[n][0])
+            item.add_value('username', all[n][0])
             item.add_value('date', all[n][1])
             item.add_value('reviews', all[n][2])
             item.add_value('star_score', all[n][3])

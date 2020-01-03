@@ -11,7 +11,7 @@ from scrapy.loader.processors import TakeFirst
 
 class NaverMovieItem(scrapy.Item):
     title = scrapy.Field(output_processor=TakeFirst())
-    user = scrapy.Field(output_processor=TakeFirst())
+    username = scrapy.Field(output_processor=TakeFirst())
     date = scrapy.Field(output_processor=TakeFirst())
     reviews = scrapy.Field(output_processor=TakeFirst())
     star_score = scrapy.Field(output_processor=TakeFirst())
