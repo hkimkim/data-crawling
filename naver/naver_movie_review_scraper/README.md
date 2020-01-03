@@ -27,7 +27,7 @@ Naver News Scraper is useful to those trying to scrape user movie reviews from N
 
 ### 1) review_spider
 
-> `review_spider` is a spider that crawls user reviews of one movie review. For example, the code crawls [Frozen 2 Movie Review](https://movie.naver.com/movie/bi/mi/basic.nhn?code=136873).
+> `review_spider` is a spider that crawls user reviews of one movie review. For example, this code crawls [Frozen 2 Movie Review](https://movie.naver.com/movie/bi/mi/basic.nhn?code=136873).
 
 1. Fork the repository.
 
