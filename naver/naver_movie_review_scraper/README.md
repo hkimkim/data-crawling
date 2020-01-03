@@ -41,7 +41,7 @@ Naver News Scraper is useful to those trying to scrape user movie reviews from N
 ![Imgur](https://i.imgur.com/mSvQJDs.png)
 
 
-5. Run <code> scrapy runspider review_spider.py </code> </br>
+5. Run <code> scrapy runspider review_spider.py</code> in terminal</br>
 ![Alt Text](https://media.giphy.com/media/iEvzrMb842gYMykC4L/giphy.gif)
 
 6. To save the crawled outcome to a .csv file, run the code:</br> `scrapy runspider review_spider.py -o <name_of_file>.csv`
@@ -68,7 +68,7 @@ Naver News Scraper is useful to those trying to scrape user movie reviews from N
 3. Navigate into `/spiders` directory</br>
 `cd /<your machine directory>/data_crawling/naver/naver_movie_review_scraper/naver_movie/spiders`.
 
-4. Run <code> scrapy runspider merged_spider.py </code> </br>
+4. Run <code> scrapy runspider merged_spider.py</code> in terminal </br>
 ![Alt Text](https://media.giphy.com/media/dxHtppiLTg5ySCJdDq/giphy.gif)
 
 6. To save the crawled outcome to a .csv file, run the code:</br> `scrapy runspider merged_spider.py -o <name_of_file>.csv`

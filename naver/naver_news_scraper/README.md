@@ -38,7 +38,7 @@ Naver News Scraper is useful to those trying to scrape user comments from Naver 
 ![Imgur](https://i.imgur.com/llM8NvZ.png?1)
 
 
-5. Run <code> scrapy runspider naver_news_scraper.py </code> </br>
+5. Run <code> scrapy runspider naver_news_scraper.py</code> in terminal. </br>
 ![Alt Text](https://media.giphy.com/media/U3VVbR1DMej8GZXJl8/giphy.gif)
 
 6. To save the crawled outcome to a .csv file, run the code:</br> `scrapy runspider naver_news_scraper.py -o <name_of_file>.csv`
