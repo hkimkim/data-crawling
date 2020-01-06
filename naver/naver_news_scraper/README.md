@@ -45,7 +45,7 @@ Naver News Scraper is useful to those trying to scrape user comments from Naver 
 
 ## Scraped Data Features:
 -   userName: user ID of commenter
--   date: date the comment was made
+-   date: date the comment was posted
 -   title: title of the news article
 -   press: name of press of the news article
 -   content: comment by the user

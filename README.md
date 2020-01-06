@@ -8,13 +8,14 @@ Data Crawling contains three web crawlers that scrapes:
 
 _*Daum and Naver are Korean search engines and web portals_
 
-It uses python `BeutifulSoup` and `scrapy` framework.
+It uses `scrapy` framework and python `json` module to crawl and parse the crawled data.
 
 ## Requirements
 
 * Python 3.6 +
 * [scrapy](https://scrapy.org/)
-* [BeutifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+* [jupyter notebook](https://jupyter.org/install)
+
 
 ## Directory
 * [data_crawling](https://github.com/hkimkim/data_crawling):  root directory

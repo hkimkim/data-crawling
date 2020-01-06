@@ -2,7 +2,7 @@
 
 Naver Movie Review Scraper is a web crawler that scrapes user movie reviews(네티즌 한줄평) from [Naver Movie Review](https://movie.naver.com).
 
-Naver News Scraper is useful to those trying to scrape user movie reviews from Naver Movie Review. It uses python `scrapy` framework.
+Naver Movie Review Scraper is useful to those trying to scrape user movie reviews from Naver Movie Review. It uses python `scrapy` framework.
 
 ## Requirements
 
