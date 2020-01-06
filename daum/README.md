@@ -17,9 +17,13 @@ Daum News Scraper is useful to those trying to scrape user comments from Daum Ne
 
   ![Imgur](https://i.imgur.com/lWpyxWH.png)
 
-3. Copy and paste `postId` into the `postId` variable of the jupyter notebook.
+3. Run `daum_news_comment_crawling.ipynb` on jupyter notebook
 
-4. Run the remaining code.
+4. Copy and paste `postId` into the `postId` variable of the jupyter notebook.
+
+  ![Imgur](https://i.imgur.com/s28gQ9N.png)
+
+5. Run the remaining code.
 
 
 
