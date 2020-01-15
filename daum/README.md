@@ -1,8 +1,8 @@
 # Daum News Scraper
 
-Daum News Scraper is a web crawler that scrapes user comments from [Daum news](https://media.daum.net/).
+Daum News Scraper is a web scraper that scrapes user comments from [Daum news](https://media.daum.net/).
 
-Daum News Scraper is useful to those trying to scrape user comments from Daum News. It crawls API of the daum news article, which returns a json file, and is then parsed using python `json` module.
+Daum News Scraper is useful to those trying to scrape user comments from Daum News. It scrapes API of the daum news article, which returns a json file, and is then parsed using python `json` module.
 
 ## Requirements
 * Python 3.6 +
@@ -11,7 +11,7 @@ Daum News Scraper is useful to those trying to scrape user comments from Daum Ne
 
 ## Running the code
 
-1. Open web developer tool of the article link you are trying to crawl.
+1. Open web developer tool of the article link you are trying to scrapes.
 
 2. Go into **Network > XHR** and click the file that starts with `comments?...`. Then click `Preview` and you will see `postId`.
 
