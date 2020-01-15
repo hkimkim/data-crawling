@@ -18,10 +18,10 @@ It uses `scrapy` framework and python `json` module to scrape and parse the scra
 
 
 ## Directory
-* [data_scraping](https://github.com/hkimkim/data_scraping):  root directory
-    * [daum](https://github.com/hkimkim/data_scraping/tree/master/daum/)/ contains code for scraping user comments on daum news article </br>
-    * [naver](https://github.com/hkimkim/data_scraping/tree/master/naver)/ contains code for scraping naver news and naver movie review
-        * [naver_movie_review_scraper](https://github.com/hkimkim/data_scraping/tree/master/naver/naver_movie_review_scraper)/ contains code for naver movie review
-        * [naver_news_scraper](https://github.com/hkimkim/data_scraping/tree/master/naver/naver_news_scraper)/ contains code for scraping naver news
+* [data_scraping](https://github.com/hkimkim/data-scraping):  root directory
+    * [daum](https://github.com/hkimkim/data-scraping/tree/master/daum/)/ contains code for scraping user comments on daum news article </br>
+    * [naver](https://github.com/hkimkim/data-scraping/tree/master/naver)/ contains code for scraping naver news and naver movie review
+        * [naver_movie_review_scraper](https://github.com/hkimkim/data-scraping/tree/master/naver/naver_movie_review_scraper)/ contains code for naver movie review
+        * [naver_news_scraper](https://github.com/hkimkim/data-scraping/tree/master/naver/naver_news_scraper)/ contains code for scraping naver news
 
 *_For more details on how to run each scraper, read the README.md in each directory_
