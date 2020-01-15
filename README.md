@@ -1,6 +1,6 @@
 # Data Scraping
 
-Data Scraping contains three web crawlers that scrapes:
+Data Scraping contains three web scrapers that scrapes:
 
 1) user comments on [Daum News articles](https://media.daum.net/) </br>
 2) user comments on [Naver News articles](https://news.naver.com/) </br>
