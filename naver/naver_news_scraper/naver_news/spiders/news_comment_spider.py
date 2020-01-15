@@ -5,11 +5,11 @@ from scrapy.loader import ItemLoader
 import json
 import re
 
-#this code crawls user comments from naver news articles
+#this code scrapess user comments from naver news articles
 
 class NewsCommentSpider(scrapy.Spider):
     name = "news_comment_spider"
-    #input the news article link you want to crawl
+    #input the news article link you want to scrape
     url = "https://news.naver.com/main/ranking/read.nhn?mid=etc&sid1=111&rankingType=popular_day&oid=437&aid=0000227434&date=20191226&type=2"
 
     oid = re.findall(r'(?<=&oid=)[0-9]+', url)[0]

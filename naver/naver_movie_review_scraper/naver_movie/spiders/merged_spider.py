@@ -6,7 +6,7 @@ from naver_movie.items import NaverMovieItem, MovieCodeItem, ReviewCount
 import re
 import math
 
-#this code crawls the user movie review from naver's 2000 movie rank
+#this code scrapes the user movie review from naver's 2000 movie rank
 
 class MergedSpider(scrapy.Spider):
     name = "merged_spider"

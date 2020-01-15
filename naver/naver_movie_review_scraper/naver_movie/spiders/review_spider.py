@@ -5,8 +5,8 @@ from naver_movie.items import NaverMovieItem
 import re
 import math
 
-#this code crawls user movie reviews from naver movie review page
-#this code crawls movie review of Frozen2
+#this code scrapes user movie reviews from naver movie review page
+#this code scrapes movie review of Frozen2
 
 class ReviewSpider(scrapy.Spider):
     name = "review_spider"
