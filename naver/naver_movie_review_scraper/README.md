@@ -1,6 +1,6 @@
 # Naver Movie Review Scraper (네이버 영화 평점)
 
-Naver Movie Review Scraper is a web scraper that scrapes user movie reviews(네티즌 한줄평) from [Naver Movie Review](https://movie.naver.com).
+Naver Movie Review Scraper is a web crawler that scrapes user movie reviews(네티즌 한줄평) from [Naver Movie Review](https://movie.naver.com).
 
 Naver Movie Review Scraper is useful to those trying to scrape user movie reviews from Naver Movie Review. It uses python `scrapy` framework.
 
@@ -11,14 +11,14 @@ Naver Movie Review Scraper is useful to those trying to scrape user movie review
 
 
 ## Directory Structure
-* [naver_movie](https://github.com/hkimkim/data_scraping/tree/master/naver/naver_movie_review_scraper/naver_movie):  root directory
-  * [spiders](https://github.com/hkimkim/data-scraping/tree/master/naver/naver_movie_review_scraper/naver_movie/spiders)/ contains the web scrapers/spiders for scraping
-    * [merged_spider.py](https://github.com/hkimkim/data_scraping/blob/master/naver/naver_movie_review_scraper/naver_movie/spiders/merged_spider.py)/ contains code for spider that scrapes all the user reviews from [top 40 best movies](https://movie.naver.com/movie/sdb/rank/rmovie.nhn?sel=pnt&date=20200102)
-    * [review_spider.py](https://github.com/hkimkim/data-scraping/blob/master/naver/naver_movie_review_scraper/naver_movie/spiders/review_spider.py)/contains code for spider that scraps user reviews from one specified movie
-  * [items.py](https://github.com/hkimkim/data-scraping/blob/master/naver/naver_news_scraper/naver_news//items.py)/ default scrapy python script that defines how and where to store scraped data
-  * [middlewares.py](https://github.com/hkimkim/data-scraping/blob/master/naver/naver_news_scraper/naver_news/middlewares.py)/default scrapy python script that customizes plugs that process the responses
-  * [pipelines.py](https://github.com/hkimkim/data-scraping/blob/master/naver/naver_news_scraper/naver_news/pipelines.py)/ default scrapy python script that processes the scraped data into desired format
-  * [settings.py](https://github.com/hkimkim/data-scraping/blob/master/naver/naver_news_scraper/naver_news/settings.py)/ default scrapy python script that defines the data scraping spider's settings
+* [naver_movie](https://github.com/hkimkim/data-crawling/tree/master/naver/naver_movie_review_scraper/naver_movie):  root directory
+  * [spiders](https://github.com/hkimkim/data-crawling/tree/master/naver/naver_movie_review_scraper/naver_movie/spiders)/ contains the web crawlers for scraping
+    * [merged_spider.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_movie_review_scraper/naver_movie/spiders/merged_spider.py)/ contains code for spider that scrapes all the user reviews from [top 40 best movies](https://movie.naver.com/movie/sdb/rank/rmovie.nhn?sel=pnt&date=20200102)
+    * [review_spider.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_movie_review_scraper/naver_movie/spiders/review_spider.py)/contains code for spider that scraps user reviews from one specified movie
+  * [items.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_news_scraper/naver_news//items.py)/ default scrapy python script that defines how and where to store scraped data
+  * [middlewares.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_news_scraper/naver_news/middlewares.py)/default scrapy python script that customizes plugs that process the responses
+  * [pipelines.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_news_scraper/naver_news/pipelines.py)/ default scrapy python script that processes the scraped data into desired format
+  * [settings.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_news_scraper/naver_news/settings.py)/ default scrapy python script that defines the data scraping spider's settings
 
 
 **For more detailed guide of `scrapy` refer to https://docs.scrapy.org/en/latest/index.html*
@@ -32,12 +32,12 @@ Naver Movie Review Scraper is useful to those trying to scrape user movie review
 1. Fork the repository.
 
 2. Clone your forked repository to your machine.</br>
-``` git clone https://github.com/hkimkim/data-scraping.git ```
+``` git clone https://github.com/hkimkim/data-crawling.git ```
 
 3. Navigate into `/spiders` directory</br>
-`cd /<your machine directory>/data-scraping/naver/naver_movie_review_scraper/naver_movie/spiders`.
+`cd /<your machine directory>/data-crawling/naver/naver_movie_review_scraper/naver_movie/spiders`.
 
-4. Open `review_spider.py` and copy and paste the link of the movie you want to scrape into the `url` variable on line 14.
+4. Open `review_spider.py` and copy and paste the link of the movie you want to crawl into the `url` variable on line 14.
 ![Imgur](https://i.imgur.com/mSvQJDs.png)
 
 
@@ -63,10 +63,10 @@ Naver Movie Review Scraper is useful to those trying to scrape user movie review
 1. Fork the repository.
 
 2. Clone your forked repository to your machine.</br>
-``` git clone https://github.com/hkimkim/data-scraping.git ```
+``` git clone https://github.com/hkimkim/data-crawling.git ```
 
 3. Navigate into `/spiders` directory</br>
-`cd /<your machine directory>/data-scraping/naver/naver_movie_review_scraper/naver_movie/spiders`.
+`cd /<your machine directory>/data-crawling/naver/naver_movie_review_scraper/naver_movie/spiders`.
 
 4. Run <code> scrapy runspider merged_spider.py</code> in terminal </br>
 ![Alt Text](https://media.giphy.com/media/dxHtppiLTg5ySCJdDq/giphy.gif)
