@@ -14,7 +14,7 @@ Daum News Scraper is useful to those trying to scrape user comments from Daum Ne
 
 ## Running the code
 
-1. Open web developer tool of the article link you are trying to scrapes.
+1. Open web developer tool of the article link you are trying to scrape.
 
 2. Go into **Network > XHR** and click the file that starts with `comments?...`. Then click `Preview` and you will see `postId`.
 
