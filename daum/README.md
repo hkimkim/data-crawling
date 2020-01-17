@@ -8,6 +8,9 @@ Daum News Scraper is useful to those trying to scrape user comments from Daum Ne
 * Python 3.6 +
 * [jupyter notebook](https://jupyter.org/install)
 
+## Modules Used
+* requests
+* json
 
 ## Running the code
 
