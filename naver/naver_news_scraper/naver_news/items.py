@@ -18,3 +18,8 @@ class NaverNewsItem(scrapy.Item):
     content = scrapy.Field(output_processor=TakeFirst())
     likes = scrapy.Field(output_processor=TakeFirst()) #sympathyCount
     dislikes = scrapy.Field(output_processor=TakeFirst()) #antipathyCount
+    sad = scrapy.Field(output_processor=TakeFirst()) # 슬퍼요
+    like = scrapy.Field(output_processor=TakeFirst()) #좋아요
+    angry = scrapy.Field(output_processor=TakeFirst()) #화나요
+    want = scrapy.Field(output_processor=TakeFirst()) #후속기사 원해
+    warm = scrapy.Field(output_processor=TakeFirst()) #훈훈해요

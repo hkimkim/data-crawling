@@ -51,5 +51,10 @@ Naver News Scraper is useful to those trying to scrape user comments from Naver 
 -   content: comment by the user
 -   likes: number of likes the comment received
 -   dislikes: number of dislikes the comment received
+-   sad: number of sad reactions for the article (슬퍼요)
+-   like: number of like reactions for the article (좋아요)
+-   angry: number of angry reactions for the article (화나요)
+-   want: number of want reactions for the article (후속기사 원해요)
+-   warm: number of warm reactions for the article (훈훈해요)
 
 ***
