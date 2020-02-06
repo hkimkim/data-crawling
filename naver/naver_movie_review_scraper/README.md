@@ -58,7 +58,7 @@ Naver Movie Review Scraper is useful to those trying to scrape user movie review
 
 ### 2) merged_spider
 
-> `merged_spider` is a spider that scrapes all the user reviews from [top 40 best movies](https://movie.naver.com/movie/sdb/rank/rmovie.nhn?sel=pnt&date=20200102) from today's date standard.
+> `merged_spider` is a spider that scrapes all the user reviews from [top 2000 best movies](https://movie.naver.com/movie/sdb/rank/rmovie.nhn?sel=pnt&date=20200102) from today's date standard.
 
 1. Fork the repository.
 
