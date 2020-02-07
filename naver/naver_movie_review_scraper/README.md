@@ -13,7 +13,7 @@ Naver Movie Review Scraper is useful to those trying to scrape user movie review
 ## Directory Structure
 * [naver_movie](https://github.com/hkimkim/data-crawling/tree/master/naver/naver_movie_review_scraper/naver_movie):  root directory
   * [spiders](https://github.com/hkimkim/data-crawling/tree/master/naver/naver_movie_review_scraper/naver_movie/spiders)/ contains the web crawlers for scraping
-    * [merged_spider.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_movie_review_scraper/naver_movie/spiders/merged_spider.py)/ contains code for spider that scrapes all the user reviews from [top 40 best movies](https://movie.naver.com/movie/sdb/rank/rmovie.nhn?sel=pnt&date=20200102)
+    * [merged_spider.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_movie_review_scraper/naver_movie/spiders/merged_spider.py)/ contains code for spider that scrapes all the user reviews from [top 2000 best movies](https://movie.naver.com/movie/sdb/rank/rmovie.nhn?sel=pnt&date=20200102)
     * [review_spider.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_movie_review_scraper/naver_movie/spiders/review_spider.py)/contains code for spider that scraps user reviews from one specified movie
   * [items.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_news_scraper/naver_news//items.py)/ default scrapy python script that defines how and where to store scraped data
   * [middlewares.py](https://github.com/hkimkim/data-crawling/blob/master/naver/naver_news_scraper/naver_news/middlewares.py)/default scrapy python script that customizes plugs that process the responses
