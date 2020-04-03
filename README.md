@@ -25,3 +25,13 @@ It uses `scrapy` framework and python `json` module to crawl and parse the scrap
         * [naver_news_scraper](https://github.com/hkimkim/data-crawling/tree/master/naver/naver_news_scraper)/ contains code for scraping naver news
 
 *_For more details on how to run each scraper, read the README.md in each directory_
+
+
+***
+I wrote a series of blog posts about data crawling:  
+
+* Part I: [Motivation and overview of my project, and concept of web crawling and the pros and cons of the popular web crawling python modules.](http://heekyung.me/article/2405/)
+* Part II: [How to scrape comments of daum news article.](http://heekyung.me/article/7776/)   
+* Part III: [How to scrape comments of naver news article.](http://heekyung.me/article/8913/)  
+* Part IV: [How to scrape user reviews of naver movie review.](http://heekyung.me/article/3068/)
+***
