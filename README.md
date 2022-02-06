@@ -1,6 +1,8 @@
 # Data Crawling
 [Last Updated Jan 2020]]
 
+I wrote a [blog post]() explaining the concept of web crawling and the pros and cons of the popular web crawling python modules.
+
 Data Crawling contains three web crawlers that crawls:
 
 1) user comments on [Daum News articles](https://media.daum.net/) </br>
@@ -27,12 +29,3 @@ It uses `scrapy` framework and python `json` module to crawl and parse the scrap
 
 *_For more details on how to run each scraper, read the README.md in each directory_
 
-
-***
-I wrote a series of blog posts about data crawling:  
-
-* Part I: [Motivation and overview of my project, and concept of web crawling and the pros and cons of the popular web crawling python modules.](http://heekyung.me/article/2405/)
-* Part II: [How to scrape comments of daum news article.](http://heekyung.me/article/7776/)   
-* Part III: [How to scrape comments of naver news article.](http://heekyung.me/article/8913/)  
-* Part IV: [How to scrape user reviews of naver movie review.](http://heekyung.me/article/3068/)
-***
