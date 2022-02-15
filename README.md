@@ -1,5 +1,5 @@
 # Data Crawling
-[Last Updated Jan 2020]]
+[Last Updated Jan 2020]
 
 I wrote a [blog post](https://hkimkim.github.io/python/scrapy/2020/01/18/data-crawling.html) explaining the concept of web crawling and the pros and cons of the popular web crawling python modules.
 
